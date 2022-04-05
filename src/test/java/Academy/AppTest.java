@@ -40,4 +40,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void AppleApp()
+    {
+        assertTrue( true );
+    }
 }
