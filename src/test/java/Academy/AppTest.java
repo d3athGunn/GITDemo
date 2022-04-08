@@ -45,4 +45,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void AnroidApp()
+    {
+        assertTrue( true );
+        System.out.println("Navigated to Home page");
+        
+    }
 }

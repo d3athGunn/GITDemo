@@ -41,7 +41,8 @@ public class validateTitle extends base{
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED CO123URSES");
 		 log.info("Successfully validated Text message");
 		 System.out.println("Test completed");
-		 
+		 log.info("Navigated to Home page");
+		 log.info("Navigated to Home page");
 		;
 	
 		
@@ -52,6 +53,8 @@ public class validateTitle extends base{
 		
 		driver.close();
 		driver=null;
+		log.info("Navigated to Home page");
+		log.info("Navigated to Home page");
 		
 	}
 

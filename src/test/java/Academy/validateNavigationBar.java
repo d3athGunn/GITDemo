@@ -40,7 +40,8 @@ public void initialize() throws IOException
 		//one is inheritance
 		// creating object to that class and invoke methods of it
 		LandingPage l=new LandingPage(driver);
-	
+		log.info("Navigated to Home page");
+		log.info("Navigated to Home page");
 		//compare the text from the browser with actual text.- Error..
 	    Assert.assertTrue(l.getNavigationBar().isDisplayed());
 	    log.info("Navigation Bar is displayed");
