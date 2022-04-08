@@ -52,4 +52,11 @@ public class AppTest
         System.out.println("Navigated to Home page");
         
     }
+    
+    public void WindowsApp()
+    {
+        assertTrue( true );
+        System.out.println("Navigated to Home page");
+        
+    }
 }
